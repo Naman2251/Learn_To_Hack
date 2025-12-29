@@ -1,0 +1,23 @@
+Brief description about df command :
+
+The df  that is disk free command is used to display information about the disk space usage of file systems in Linux. It shows the total size,space used, available space, and mount points of file systems.
+
+Flags and Options:
+1. -h : human-readable
+Displays disk sizes in a human-readable format such as KB, MB, and GB.
+
+2. -a : all
+Displays information about all file systems, including pseudo and virtual file systems.
+  
+3. -T : print file system type
+Shows the type of each file system along with disk usage information.
+
+4. -i : inode information
+Displays inode usage instead of block usage. useful when filescannot be created even though disk space is available.
+
+5. --total
+Displays a total line at the end showing the overall disk usage across
+all file systems.
+
+Use Case:
+The df command is commonly used by system administrators to monitor disk usage and ensure that sufficient storage space is available on a Linux system.
